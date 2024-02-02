@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'account-overview' => 'Account Overview',
-    'twofactor-messagebox' => 'Your account must have two-factor authentication enabled in order to continue.',
-    'apikey' => 'API Key',
-    'sshkey' => 'SSH Key',
+    'account-overview' => 'Descripción general de la cuenta',
+    'twofactor-messagebox' => 'Su cuenta debe tener habilitada la autenticación de dos factores para poder continuar.',
+    'apikey' => 'Llave API',
+    'sshkey' => 'Llave Key',
 
     'update-password' => [
         'current' => 'Current Password',
