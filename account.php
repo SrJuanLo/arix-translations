@@ -7,99 +7,98 @@ return [
     'sshkey' => 'Llave Key',
 
     'update-password' => [
-        'current' => 'Current Password',
-        'new' => 'New Password',
-        'requirements' => 'Your new password should be at least 8 characters in length and unique to this website.',
-        'confirm' => 'Confirm New Password',
-        'update' => 'Update Password',
+        'current' => 'Contraseña actual',
+        'new' => 'Nueva contraseña',
+        'requirements' => 'Su nueva contraseña debe tener al menos 8 caracteres y ser exclusiva de este sitio web.',
+        'confirm' => 'Confirmar su nueva contraseña',
+        'update' => 'Actualiza contraseña',
     ],
 
     'update-email' => [
-        'isUpdated' => 'Your primary email has been updated',
-        'update' => 'Update Email',
+        'isUpdated' => 'Su correo electrónico principal ha sido actualizado',
+        'update' => 'Actualizar correo electrónico',
         'email' => 'Email',
-        'confirm' => 'Confirm Password',
+        'confirm' => 'Confirmar su nueva contraseña',
     ],
 
     'appearance' => [
-        'title' => 'Appearance',
-        'lightDarkMode' => 'Light/Dark Mode',
-        'light' => 'Light',
-        'dark' => 'Dark',
-        'language' => 'Panel Language',
-        'panel-sounds' => 'Panel Sounds',
-        'on' => 'On',
-        'off' => 'Off',
+        'title' => 'Apariencia',
+        'lightDarkMode' => 'Modo Claro/Oscuro',
+        'light' => 'Claro',
+        'dark' => 'Oscuro',
+        'language' => 'Idioma del panel',
+        'panel-sounds' => 'Sonidos del panel',
+        'on' => 'Encendido',
+        'off' => 'Apagado',
     ],
 
     'twofactor' => [
-        'title' => 'Two Factor Authentication',
-        'isEnabled' => 'Two-step verification is currently enabled on your account.',
-        'isDisabled' => 'You do not currently have two-step verification enabled on your account. Click the button below to begin configuring it.',
-        'disable' => 'Disable Two-Step',
-        'enable' => 'Enable Two-Step',
+        'title' => 'Autenticación de dos factores',
+        'isEnabled' => 'La verificación en dos pasos está actualmente habilitada en su cuenta.',
+        'isDisabled' => 'Actualmente no tienes habilitada la verificación en dos pasos en tu cuenta. Haga clic en el botón a continuación para comenzar a configurarlo.',
+        'disable' => 'Deshabilitar la autenticación de dos factores',
+        'enable' => 'Habilitar la autenticación de dos factores',
         
         'disable-dialog' => [
-            'password' => 'Password',
-            'cancel' => 'Cancel',
-            'must-enter-password' => 'You must enter your account password to continue.',
-            'disable' => 'Disable',
+            'password' => 'Contraseña',
+            'cancel' => 'Cancelar',
+            'must-enter-password' => 'Debe ingresar la contraseña de su cuenta para continuar.',
+            'disable' => 'Desactivar',
         ],
 
         'setup-dialog' => [
-            'description' => 'Scan the QR code above using the two-step authentication app of your choice. Then, enter the 6-digit code generated into the field below.',
-            'account-password' => 'Account Password',
-            'qrcode-loading' => 'Waiting for QR code to load...',
-            'enter-6digit-password' => 'You must enter the 6-digit code and your password to continue.',
-            'enable' => 'Enable',
-            'cancel' => 'Cancel',
-        ],
+    'description' => 'Escanee el código QR de arriba utilizando la aplicación de autenticación de dos pasos de su elección. Luego, ingrese el código de 6 dígitos generado en el campo a continuación.',
+    'account-password' => 'Contraseña de la cuenta',
+    'qrcode-loading' => 'Esperando a que se cargue el código QR...',
+    'enter-6digit-password' => 'Debe ingresar el código de 6 dígitos y su contraseña para continuar.',
+    'enable' => 'Habilitar',
+    'cancel' => 'Cancelar',
+],
+
+'apiKey' => [
+    'label' => 'Descripción',
+    'description' => 'Una descripción de esta clave API.',
+    'allowedIPs-label' => 'IPs permitidas',
+    'allowedIPs-description' => 'Deje en blanco para permitir que cualquier dirección IP use esta clave API, de lo contrario, proporcione cada dirección IP en una nueva línea.',
+    'createButton' => 'Crear',
+
+    'your-keys' => 'Tu clave API',
+    'store-save' => 'La clave API que has solicitado se muestra a continuación. Por favor, guárdala en un lugar seguro, no se mostrará de nuevo.',
+    'close' => 'Cerrar',
+
+    'delete-api-key' => 'Eliminar clave API',
+    'delete-key' => 'Eliminar clave',
+    'all-requests-invalidated-1' => 'Todas las solicitudes que utilizan la',
+    'all-requests-invalidated-2' => 'clave serán invalidadas.',
+    'loading' => 'Cargando...',
+    'no-key-found' => 'No existen claves API para esta cuenta.',
+    'last-used' => 'Último usado',
+],
+
+'sshKey' => [
+    'loading' => 'Cargando...',
+    'no-key-found' => 'No existen claves SSH para esta cuenta.',
+    'added-on' => 'Añadido el',
+
+    'createForm' => [
+        'key-name' => 'Nombre de la clave SSH',
+        'public-key' => 'Clave pública',
+        'public-key-desc' => 'Ingrese su clave SSH pública.',
+        'save' => 'Guardar',
     ],
 
-    'apiKey' => [
-        'label' => 'Description',
-        'description' => 'A description of this API key.',
-        'allowedIPs-label' => 'Allowed IPs',
-        'allowedIPs-description' => 'Leave blank to allow any IP address to use this API key, otherwise provide each IP address on a new line.',
-        'createButton' => 'Create',
-
-        'your-keys' => 'Your API Key',
-        'store-save' => 'The API key you have requested is shown below. Please store this in a safe location, it will not be shown again.',
-        'close' => 'Close',
-
-        'delete-api-key' => 'Delete API Key',
-        'delete-key' => 'Delete Key',
-        'all-requests-invalidated-1' => 'All requests using the',
-        'all-requests-invalidated-2' => 'key will be invalidated.',
-        'loading' => 'Loading...',
-        'no-key-found' => 'No API keys exist for this account.',
-        'last-used' => 'Last used',
+    'deleteForm' => [
+        'delete-ssh-key' => 'Eliminar clave SSH',
+        'delete-key' => 'Eliminar clave',
+        'will-invalidate-1' => 'Eliminar la',
+        'will-invalidate-2' => 'clave SSH invalidará su uso en el Panel.',
     ],
+],
 
-    'sshKey' => [
-        'loading' => 'Loading...',
-        'no-key-found' => 'No SSH Keys exist for this account.',
-        'added-on' => 'Added on',
-
-        'createForm' => [
-            'key-name' => 'SSH Key Name',
-            'public-key' => 'Public Key',
-            'public-key-desc' => 'Enter your public SSH key.',
-            'save' => 'save',
-        ],
-
-        'deleteForm' => [
-            'delete-ssh-key' => 'Delete SSH Key',
-            'delete-key' => 'Delete Key',
-            'will-invalidate-1' => 'Removing the',
-            'will-invalidate-2' => 'SSH key will invalidate its usage across the Panel.',
-        ],
-    ],
-
-    'recoveryTokensDialog' => [
-        'title' => 'Two-Step Authentication Enabled',
-        'description' => 'Store the codes below somewhere safe. If you lose access to your phone you can use these backup codes to sign in.',
-        'alert' => 'These codes will not be shown again.',
-        'doneButton' => 'Done',
-    ],
+'recoveryTokensDialog' => [
+    'title' => 'Autenticación de dos pasos habilitada',
+    'description' => 'Guarde los códigos a continuación en un lugar seguro. Si pierde el acceso a su teléfono, puede usar estos códigos de respaldo para iniciar sesión.',
+    'alert' => 'Estos códigos no se mostrarán nuevamente.',
+    'doneButton' => 'Listo',
+],
 ];
